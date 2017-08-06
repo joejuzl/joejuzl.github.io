@@ -146,10 +146,15 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
-.social-media-list .icon {
-  padding-right: 5px; }
-.social-media-list li + li {
-  padding-top: 5px; }
+.icon-github-small > svg {
+  width: 20px;
+  height: 20px; }
+
+.tech-icon > svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px; }
 
 /**
  * Site header
