@@ -1,0 +1,11 @@
+title: Joe Juzl
+email: joejuzl@gmail.com
+description: >
+  Joe Juzl's personal site.
+baseurl: ""
+url: ""
+github_username:  joejuzl
+
+# Build settings
+markdown: kramdown
+plugins:
