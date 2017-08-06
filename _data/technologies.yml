@@ -1,0 +1,25 @@
+language:
+  - ruby
+  - python
+  - javascript
+
+framework:
+  - rails
+  - django
+  - react
+
+database:
+  - postgresql
+
+infastructure:
+  - aws
+  - docker
+  - heroku
+
+vcs:
+  - git
+  - github
+
+os:
+  - apple
+  - linux

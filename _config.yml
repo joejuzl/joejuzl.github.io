@@ -5,7 +5,9 @@ description: >
 baseurl: ""
 url: ""
 github_username:  joejuzl
+google_analytics: UA-104089015-1
 
 # Build settings
 markdown: kramdown
 plugins:
+  - jekyll-titleize

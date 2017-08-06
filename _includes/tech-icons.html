@@ -1,0 +1,14 @@
+<div class="technologies">
+    {% for types in site.data.technologies %}
+        {% assign type = {{types[0]}} %}
+        {% assign techs = {{types[1]}} %}
+        <div class="tech-group {{type}}" >
+            <h2>{{type }}</h2>
+            {% for tech in techs %}
+                <span class="tech-icon">
+                  {% include icons/icon-{{tech}}.svg %}
+                </span>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>

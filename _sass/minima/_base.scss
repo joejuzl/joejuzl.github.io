@@ -204,12 +204,16 @@ pre {
   }
 }
 
-.social-media-list {
-  .icon {
-    padding-right: 5px;
-  }
+.icon-github-small > svg {
+  width: 20px;
+  height: 20px;
+}
 
-  li + li {
-    padding-top: 5px;
-  }
+.tech-icon > svg {
+  display: inline-block;
+  vertical-align: middle;
+
+  width: 100px;
+  height: 100px;
+
 }
